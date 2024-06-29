@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html , body , #root {
+  height: 100%;
+
+}
+/* body{
+  background-color: #dbdfea;
+} */
+#root{
+  display: flex;
+  flex-direction: column;
+}
+html , body , #root {
+  height: 100%;
+}
+
+/* .letra{
+  color: #f0faff ;
+} */
+
+.imgCertificado{
+  display: flex;
+  justify-content: center;
+  object-fit: fill;
+}
