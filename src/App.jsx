@@ -30,7 +30,7 @@ function App() {
     return (
         <>
             <BrowserRouter>
-                <div className="flex flex-col justify-around">
+                <div className="flex flex-col">
                     <div className="bg-white">
                         <Barra
                             handleHome={handleHome}

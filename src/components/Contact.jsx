@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Contact({ contacto,ingles }) {
     return (
         <div
-            className="mt-20 p-4 mb-1 w-full flex flex-col text-center justify-center border rounded-r-md shadow-lg"
+            className="mt-20 p-4 mb-16 flex flex-col text-center justify-center border rounded-r-md shadow-lg 2xl:mx-56"
             ref={contacto}
         >
             <h2 className="text-4xl text-center mb-4 text-[#463eed] font-semibold">

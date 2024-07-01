@@ -4,7 +4,7 @@ function Home({ home,ingles }) {
     return (
         <div
             ref={home}
-            className="border rounded-lg p-4 shadow-2xl mt-10 bg-white"
+            className="border rounded-lg p-4 shadow-2xl mt-20 bg-white 2xl:mx-56"
         >
             <Presentacion ingles={ingles} />
             <About ingles={ingles} />

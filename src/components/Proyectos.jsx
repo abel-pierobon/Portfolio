@@ -26,13 +26,13 @@ function Proyectos({ proyectos,ingles }) {
     }, [id]);
 
     return (
-        <div className="my-20 letra  shadow-md bg-white py-4 rounded-md border">
+        <div className="my-20 letra  shadow-md bg-white py-4 rounded-md border 2xl:mx-56">
             <div className="flex-col ">
                 <h2
                     className=" text-4xl text-center mb-4 text-[#463eed] font-semibold"
                     ref={proyectos}
                 >
-                    Proyectos
+                    {ingles ? "Projects" : "Proyectos"}
                 </h2>
                 <div className=" grid grid-cols-2">
                     {data.length === 0 ? (

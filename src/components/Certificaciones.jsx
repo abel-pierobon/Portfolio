@@ -29,7 +29,7 @@ function Certificaciones({ certificaciones,ingles }) {
     }, [id]);
 
     return (
-        <div className="my-16 letra flex justify-center shadow-2xl bg-white py-4 rounded-md border">
+        <div className="my-16 letra flex justify-center shadow-2xl bg-white py-4 rounded-md border 2xl:mx-56">
             <div className="flex-col content-center a">
                 <h2
                     className="text-4xl text-center mb-4 text-[#463eed] font-semibold"
@@ -38,7 +38,7 @@ function Certificaciones({ certificaciones,ingles }) {
                 {ingles ? "Certificates" : "Certificaciones"}
                     
                 </h2>
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {data.length === 0 ? (
                         <p>Loading</p>
                     ) : (
