@@ -1,10 +1,17 @@
 import { Link } from "react-router-dom";
 import github from "/images/github.png";
 import linkedin from "/images/linkedin.png";
-function About({ about }) {
+import idioma from "../components/idioma.json";
+
+function About({ ingles }) {
     return (
         <div className=" my-2 mx-12 flex-col justify-center  bg-##dbdfea">
-            <p>
+            {ingles ? (
+                <p>
+                    {idioma.about.description}
+                </p>
+            ) : (
+                <p>
                 Soy un desarrollador web autodidacta y entusiasta, con formación
                 en React JS, React Native, Vue Js, Data Science y Data
                 Analytics. Me apasiona crear aplicaciones web dinámicas e
@@ -14,6 +21,8 @@ function About({ about }) {
                 mis habilidades en HTML, CSS, JavaScript, Bootstrap, Tailwind
                 CSS, GIT, SASS, AJAX, Seaborn y SQL.
             </p>
+            )}
+            
             <div className="flex justify-start items-center space-x-4  mt-4  ">
                 <Link
                     to="https://linkedin.com/in/abel-pierobon"

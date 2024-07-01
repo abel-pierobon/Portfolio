@@ -3,7 +3,7 @@ import { db } from "../firebase";
 import { getDocs, collection } from "firebase/firestore";
 import { useState, useEffect } from "react";
 import MostrarProyecto from "./MostrarProyecto";
-function Proyectos({ proyectos }) {
+function Proyectos({ proyectos,ingles }) {
     const [data, setData] = useState([]);
     const { id } = useParams();
 
@@ -36,10 +36,10 @@ function Proyectos({ proyectos }) {
                 </h2>
                 <div className=" grid grid-cols-2">
                     {data.length === 0 ? (
-                        <p> Cargando proyectos</p>
+                        <p> Loading</p>
                     ) : (
                         data.map((item, i) => {
-                            return <MostrarProyecto key={i} proyecto={item} />;
+                            return <MostrarProyecto key={i} proyecto={item} ingles={ingles}/>;
                         })
                     )}
                 </div>

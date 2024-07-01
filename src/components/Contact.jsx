@@ -2,14 +2,14 @@ import gmail from "/images/gmail.png";
 import whatsapp from "/images/whatsapp.png";
 import linkedin from "/images/linkedin.png";
 import { Link } from "react-router-dom";
-function Contact({ contacto }) {
+function Contact({ contacto,ingles }) {
     return (
         <div
             className="mt-20 p-4 mb-1 w-full flex flex-col text-center justify-center border rounded-r-md shadow-lg"
             ref={contacto}
         >
             <h2 className="text-4xl text-center mb-4 text-[#463eed] font-semibold">
-                Contacto
+                {ingles ? "Contact" : "Contacto"}
             </h2>
             <div className="flex justify-center hover:border-black mx-6 space-x-6">
                 <div className="flex justify-start items-center space-x-2 hover:border-black">

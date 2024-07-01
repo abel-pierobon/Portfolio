@@ -6,11 +6,10 @@ import { useRef, useState } from "react";
 function App() {
     const home = useRef(null);
     const certificaciones = useRef(null);
-    const about = useRef(null);
     const proyectos = useRef(null);
     const contacto = useRef(null);
     function scrollToRef(ref) {
-        const offset = 70; // Ajusta este valor según la altura de tu barra de navegación
+        const offset = 70; 
         window.scrollTo({
             top: ref.current.offsetTop - offset,
             behavior: 'smooth'
@@ -22,10 +21,15 @@ function App() {
     const handleProyectos = () => scrollToRef(proyectos);
     const handleContacto = () => scrollToRef(contacto);
 
+    const [ingles,setIngles] = useState(false)
+
+    const handleIdioma = () => {
+        setIngles(!ingles)
+    }
+    
     return (
         <>
             <BrowserRouter>
-                <h1 className="uppercase">Portfolio</h1>
                 <div className="flex flex-col justify-around">
                     <div className="bg-white">
                         <Barra
@@ -33,6 +37,8 @@ function App() {
                             handleCertificaciones={handleCertificaciones}
                             handleProyectos={handleProyectos}
                             handleContacto={handleContacto}
+                            handleIdioma={handleIdioma}
+                            ingles={ingles}
                         />
                     </div>
                     <div className="">
@@ -41,9 +47,9 @@ function App() {
                             certificaciones={certificaciones}
                             proyectos={proyectos}
                             contacto={contacto}
+                            ingles={ingles}
                         />
                     </div>
-                    <div></div>
                 </div>
             </BrowserRouter>
         </>

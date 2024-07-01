@@ -4,13 +4,13 @@ import Proyectos from "./Proyectos.jsx";
 import Certificaciones from "./Certificaciones.jsx";
 import Contact from "./Contact.jsx";
 
-function Main({ home, about, certificaciones, proyectos, contacto }) {
+function Main({ home, certificaciones, proyectos, contacto,ingles }) {
     return (
         <div className=" mx-20 ">
-            <Home home={home} />
-            <Certificaciones certificaciones={certificaciones} />
-            <Proyectos proyectos={proyectos} />
-            <Contact contacto={contacto} />
+            <Home home={home} ingles={ingles} />
+            <Certificaciones certificaciones={certificaciones} ingles={ingles} />
+            <Proyectos proyectos={proyectos} ingles={ingles} />
+            <Contact contacto={contacto} ingles={ingles} />
         </div>
     );
 }

@@ -1,19 +1,14 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import Iconos from "./Iconos";
-
-function MostrarCertificados({ constancia, ingles }) {
-    const iconos = constancia.iconos ? Object.entries(constancia.iconos) : [];
-
+function Certificadosresponsive({ constancia }) {
     return (
-        <div className="mx-6 flex justify-center mb-4">
+        <div>
             <article
                 key={constancia.id}
                 className=" border border-gray rounded-md shadow-lg p-4  hover:border-black "
             >
                 <div className="m-3 ">
                     <p className="uppercase text-center text-[#463eed]">
-                        {ingles ? constancia.nombreEn : constancia.nombre}
+                        {constancia.nombre}
                     </p>
                 </div>
                 <div>
@@ -28,24 +23,13 @@ function MostrarCertificados({ constancia, ingles }) {
                     <Link
                         to={constancia.url}
                         target="_blank"
-                        className=" border border-gray-500 shadow-lg text-sm rounded-md px-2 py-1 hover:bg-[#463eed] hover:text-white"
+                        className=" border border-gray-500 shadow-lg text rounded-md px-2 py-1 hover:bg-[#463eed] hover:text-white"
                     >
-                        {"Link"}
+                        {"Version Web"}
                     </Link>
-                </div>
-
-                <div className="grid grid-cols-6 ">
-                    {iconos.length === 0 ? (
-                        <p>Cargando iconos</p>
-                    ) : (
-                        iconos.map(([nombre, url], i) => (
-                            <Iconos key={i} nombre={nombre} url={url} />
-                        ))
-                    )}
                 </div>
             </article>
         </div>
     );
 }
-
-export default MostrarCertificados;
+export default Certificadosresponsive;

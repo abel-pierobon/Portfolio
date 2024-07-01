@@ -1,0 +1,19 @@
+{
+    "presentacion": {
+        "title": "I am Abel Pierobon",
+        "subtitle": "Front-end Developer",
+        "span": "Data Scientist",
+        "edad": "I am 37 years old.",
+        "description": "I live in Córdoba Capital, Argentina."
+    },
+    "about": {
+        "description": "I am a self-taught and enthusiastic web developer with a background in React JS, React Native, Vue JS, Data Science, and Data Analytics. I am passionate about creating dynamic and interactive web applications, using best practices in web development and leveraging the power of data. I have participated in various personal and professional projects, where I have applied my skills in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, GIT, SASS, AJAX, Seaborn, and SQL"
+    },
+    "barra": {
+        "home": "Home",
+        "certificaciones": "Certificates",
+        "proyectos": "Projects",
+        "contacto": "Contact"
+    }
+
+}
