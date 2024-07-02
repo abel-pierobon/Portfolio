@@ -5,7 +5,7 @@ import idioma from "../components/idioma.json";
 
 function About({ ingles }) {
     return (
-        <div className=" my-2 mx-12 flex-col justify-center  bg-##dbdfea">
+        <div className="  sm:mx-0 sm:my-8  lg:mx-12 flex flex-col justify-center  bg-##dbdfea  text-xs md:text-xl ">
             {ingles ? (
                 <p>
                     {idioma.about.description}

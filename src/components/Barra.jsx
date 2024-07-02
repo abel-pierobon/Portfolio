@@ -12,83 +12,42 @@ function Barra({
 }) {
     return (
         <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
-            {!ingles ? (
-                <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        c
-                        onClick={handleHome}
-                    >
-                        Inicio
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleCertificaciones}
-                    >
-                        Certificados
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleProyectos}
-                    >
-                        Proyectos
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleContacto}
-                    >
-                        Contacto
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleIdioma}
-                    >
-                        <img
-                        src={english}
-                        alt="ingles"
-                        className="w-6 xl:w-8 hover:transform hover:scale-105 "
-                    />
-                    </button>
-                </div>
-            ) : (
-                <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        c
-                        onClick={handleHome}
-                    >
-                        {idioma.barra.home}
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleCertificaciones}
-                    >
-                        {idioma.barra.certificaciones}
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleProyectos}
-                    >
-                        {idioma.barra.proyectos}
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleContacto}
-                    >
-                        {idioma.barra.contacto}
-                    </button>
-                    <button
-                        className="  px-2 py-1 mx-1 text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
-                        onClick={handleIdioma}
-                    >
-                        <img
-                        src={español}
+            <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
+                <button
+                    className="  px-2 py-1 mx-1 text-sm sm:text-lg  xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    onClick={handleHome}
+                >
+                    {ingles ? idioma.barra.home : "Inicio"}
+                </button>
+                <button
+                    className="  px-2 py-1 mx-1 text-sm sm:text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    onClick={handleCertificaciones}
+                >
+                    {ingles ? idioma.barra.certificaciones : "Certificados"}
+                </button>
+                <button
+                    className="  px-2 py-1 mx-1 text-sm sm:text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    onClick={handleProyectos}
+                >
+                    {ingles ? idioma.barra.proyectos : "Proyectos"}
+                </button>
+                <button
+                    className="  px-2 py-1 mx-1 text-sm sm:text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    onClick={handleContacto}
+                >
+                    {ingles ? idioma.barra.contacto : "Contacto"}
+                </button>
+                <button
+                    className="  px-2 py-1 mx-1 text-sm sm:text-lg xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    onClick={handleIdioma}
+                >
+                    <img
+                        src={ingles ? español : english}
                         alt="español"
                         className="w-6 xl:w-8 hover:transform hover:scale-105 "
                     />
-                    </button>
-                </div>
-            )}
+                </button>
+            </div>
         </div>
     );
 }

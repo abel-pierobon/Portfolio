@@ -26,7 +26,7 @@ function Proyectos({ proyectos,ingles }) {
     }, [id]);
 
     return (
-        <div className="my-20 letra  shadow-md bg-white py-4 rounded-md border 2xl:mx-56">
+        <div className="my-20 shadow-md bg-white py-4 rounded-md border 2xl:mx-56">
             <div className="flex-col ">
                 <h2
                     className=" text-4xl text-center mb-4 text-[#463eed] font-semibold"
@@ -34,7 +34,7 @@ function Proyectos({ proyectos,ingles }) {
                 >
                     {ingles ? "Projects" : "Proyectos"}
                 </h2>
-                <div className=" grid grid-cols-2">
+                <div className=" grid sm:grid-cols-2 grid-cols-1">
                     {data.length === 0 ? (
                         <p> Loading</p>
                     ) : (

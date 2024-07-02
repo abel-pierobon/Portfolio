@@ -21,7 +21,7 @@ function App() {
     const handleProyectos = () => scrollToRef(proyectos);
     const handleContacto = () => scrollToRef(contacto);
 
-    const [ingles,setIngles] = useState(false)
+    const [ingles,setIngles] = useState(true)
 
     const handleIdioma = () => {
         setIngles(!ingles)

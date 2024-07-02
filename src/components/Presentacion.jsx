@@ -2,22 +2,23 @@ import imagen from "/images/perfil.jpeg";
 import idioma from "../components/idioma.json";
 function Presentacion({ ingles }) {
     return (
-        <div className="mt-8 p-4 mx-8 grid grid-cols-2 h-auto w-auto ">
+        <div className="mt-2 mx-0 sm:p-4 sm:mt-8 sm:mx-8 flex flex-col-reverse content center md:justify-between  md:flex-row h-auto w-auto ">
             {ingles ? (
-                <div className="flex-col content-center  my-6 ">
-                <h1 className="text-4xl font-semibold justify-center text-[#463eed] flex flex-col">
-                    {idioma.presentacion.subtitle} <span>{idioma.presentacion.span}</span>
-                </h1>
-                <p className="text-sm justify-center text-black xl:text-lg mt-10">
-                    {idioma.presentacion.title}
-                </p>
-                <p className="text-sm justify-center text-black xl:text-lg">
-                    {idioma.presentacion.edad}
-                </p>
-                <p className="text-sm justify-center text-black xl:text-lg">
-                    {idioma.presentacion.description}
-                </p>
-            </div>
+                <div className="flex-col content-center  my-6  ">
+                    <h1 className="text-4xl lg:text-xl font-semibold justify-center text-[#463eed] flex flex-col">
+                        {idioma.presentacion.subtitle}{" "}
+                        <span>{idioma.presentacion.span}</span>
+                    </h1>
+                    <p className="text-sm justify-center text-black xl:text-lg mt-10">
+                        {idioma.presentacion.title}
+                    </p>
+                    <p className="text-sm justify-center text-black xl:text-lg">
+                        {idioma.presentacion.edad}
+                    </p>
+                    <p className="text-sm justify-center text-black xl:text-lg">
+                        {idioma.presentacion.description}
+                    </p>
+                </div>
             ) : (
                 <div className="flex-col content-center  my-6 ">
                     <h1 className="text-4xl font-semibold justify-center text-[#463eed] flex flex-col">
@@ -34,11 +35,11 @@ function Presentacion({ ingles }) {
                     </p>
                 </div>
             )}
-            <div className="flex justify-center items-center ml-20">
+            <div className="flex justify-center items-center ml-20v">
                 <img
                     src={imagen}
                     alt="imagen"
-                    className="w-44 h-44 xl:w-60 xl:h-60 rounded-lg shadow-md m-4"
+                    className="w-48 h-48 lg:h-60 lg:w-60 border border-black rounded-lg  m-4"
                 />
             </div>
         </div>
