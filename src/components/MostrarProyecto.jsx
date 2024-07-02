@@ -8,7 +8,7 @@ function MostrarProyecto({ proyecto, ingles }) {
                 className=" flex flex-col border border-gray-400 shadow-lg rounded-md w-full h-full my-2  hover:border-black "
             >
                 <div className=" m-3">
-                    <p className=" uppercase text-center font-bold shadow-2xl shadow-black rounded-lg mb-4">
+                    <p className=" uppercase text-center font-bold shadow-2xl shadow-black rounded-lg mb-4 text-[#463eed]">
                         {proyecto.nombre}
                     </p>
                     <div className=" grid grid-cols-1 justify-center mx-6">

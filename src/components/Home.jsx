@@ -1,5 +1,6 @@
 import Presentacion from "./Presentacion";
 import About from "./About";
+import Lenguajes from "./lenguajes";
 function Home({ home,ingles }) {
     return (
         <div
@@ -8,6 +9,7 @@ function Home({ home,ingles }) {
         >
             <Presentacion ingles={ingles} />
             <About ingles={ingles} />
+            <Lenguajes/>
         </div>
     );
 }

@@ -1,11 +1,11 @@
-import imagen from "/images/perfil.jpeg";
+import perfil from "/images/perfil.jpeg";
 import idioma from "../components/idioma.json";
 function Presentacion({ ingles }) {
     return (
         <div className="mt-2 mx-0 sm:p-4 sm:mt-8 sm:mx-8 flex flex-col-reverse content center md:justify-between  md:flex-row h-auto w-auto ">
             {ingles ? (
                 <div className="flex-col content-center  my-6  ">
-                    <h1 className="text-4xl lg:text-xl font-semibold justify-center text-[#463eed] flex flex-col">
+                    <h1 className=" text-4xl font-semibold justify-center text-[#463eed] flex flex-col">
                         {idioma.presentacion.subtitle}{" "}
                         <span>{idioma.presentacion.span}</span>
                     </h1>
@@ -37,7 +37,7 @@ function Presentacion({ ingles }) {
             )}
             <div className="flex justify-center items-center ml-20v">
                 <img
-                    src={imagen}
+                    src={perfil}
                     alt="imagen"
                     className="w-48 h-48 lg:h-60 lg:w-60 border border-black rounded-lg  m-4"
                 />
