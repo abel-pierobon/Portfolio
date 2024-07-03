@@ -1,6 +1,22 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Descripciones from "./Descripciones";
+import TecnologiasDesc from "./TecnologiasDesc";
+import Card from "./Card";
+import EnlacesProyectos from "./EnlacesProyectos";
 function MostrarProyecto({ proyecto, ingles }) {
+    const [verDescripcion, setVerDescripcion] = useState(false);
+    const [verTecnologia, setVerTecnologia] = useState(false);
+
+    const handleDescripcion = () => {
+        setVerDescripcion(!verDescripcion);
+        setVerTecnologia(false);
+    };
+
+    const handleTecnologia = () => {
+        setVerTecnologia(!verTecnologia);
+        setVerDescripcion(false);
+    };
     return (
         <div className=" mx-6 my-6 ">
             <article
@@ -18,28 +34,30 @@ function MostrarProyecto({ proyecto, ingles }) {
                                 Tu navegador no soporta el elemento de video.
                             </video>
                         </div>
-                        <div className="flex justify-center my-2">
-                            <Link to={proyecto.url} target="_blank">
-                                {proyecto.nombre === "App React Native" ? (
-                                    <p className=" border border-black shadow-lg text-center rounded-md px-4 py-1 hover:bg-[#463eed] hover:text-white">
-                                        {ingles ? "Download App" : "Descargar App"}
-                                    </p>
-                                ) : (
-                                    <p className=" border border-black shadow-lg text-center rounded-md px-4 py-1 hover:bg-[#463eed] hover:text-white">
-                                        {ingles
-                                            ? "Go to Web"
-                                            : "Ir al sitio Web"}
-                                    </p>
-                                )}
-                            </Link>
+                        <div className="flex flex-col justify-center my-2">
+                            
+                            <EnlacesProyectos
+                                ingles={ingles}
+                                verDescripcion={verDescripcion}
+                                handleDescripcion={handleDescripcion}
+                                verTecnologia={verTecnologia}
+                                handleTecnologia={handleTecnologia}
+                                proyecto={proyecto}
+                            />
+                            <Descripciones
+                                proyecto={proyecto}
+                                ingles={ingles}
+                                verDescripcion={verDescripcion}
+                                handleDescripcion={handleDescripcion}
+                            />
+                            <TecnologiasDesc
+                                proyecto={proyecto}
+                                ingles={ingles}
+                                verTecnologia={verTecnologia}
+                                handleTecnologia={handleTecnologia}
+                            />
+                            <Card />
                         </div>
-                        <section>
-                            <div className="">
-                                <p className=" items-center text-sm text-wrap text-ellipsis  overscroll-auto">
-                                    {ingles ? proyecto.description : proyecto.descripcion}
-                                </p>
-                            </div>
-                        </section>
                     </div>
                 </div>
             </article>

@@ -10,7 +10,7 @@ function Lenguajes() {
                         <img
                             src="https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fhtml5.png?alt=media&token=b2e0585d-78a4-4667-9162-aabc6267f4a8"
                             alt="html5"
-                            className=" border border-gray-600 rounded-lg w-6 h-6 ml-1 sm:w-12 sm:h-12 sm:ml-0"
+                            className=" border border-gray-600 rounded-lg w-6 h-6 ml-1 sm:w-12 sm:h-12 sm:ml-0 "
                         />
                         <img
                             src="https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcss.png?alt=media&token=6f41a1bb-35fe-4d51-854d-d596ee3bf345"

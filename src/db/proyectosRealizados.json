@@ -1,0 +1,46 @@
+[
+    {
+        "id":"1",
+        "descripcion": "El proyecto es realizado para Mundo Donas, un negocio enfocado en la venta de donas en la provincia de Mendoza, Argentina. Es una Landing page que permite realizar scroll en su página principal y, al seleccionar una categoría, se dirige a la ruta de dicha categoría para visualizar los productos. La base de datos utilizada es de Firebase y se utilizaron los estilos y colores de la marca.",
+        "description": "The project is developed for Mundo Donas, a business focused on selling donuts in the province of Mendoza, Argentina. It is a landing page that allows users to scroll through the main page and, upon selecting a category, navigates to the category's route to view the products. The Firebase database is used, and the styles and colors of the brand are incorporated.",
+        "tecnologias":"aca van las tecnologias",
+        "technologies":"en inglés",
+        "nombre": "Landing page React js",
+        "titulo": "Mundo Donas",
+        "url": "https://mundo-donas-abel.vercel.app/",
+        "video": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/videos%2FmundoDonas.mp4?alt=media&token=30d7d1f8-6dab-4034-a4b1-abb68f26e7b9"
+    },
+    {
+        "id":"2",
+        "descripcion": "El proyecto es realizado para un e-commerce que se dedica a la venta de guitarras y, en el cual se pueden visualizar 18 productos de distintas categorías, que son importadas desde una base de datos de Firebase. La aplicación permite realizar filtros, utilizando rutas, por categoría en relación al sonido de las guitarras, por menor o mayor precio y además por los 6 productos más vendidos. El proyecto permite visualizar el detalle de cada producto, seleccionar cantidades y agregar al carrito, cuando eso sucede se actualiza la cantidad en stock en la base de datos en firebase, reservando dicho producto. En la sección de carrito se pueden seguir añadiendo o quitando cantidades de productos, en caso de eliminarlo el stock se recupera en la base de datos. Al realizar el pedido se genera el comprobante de pedido y se lo suministra al cliente.",
+        "description": "The project is designed for an e-commerce business that sells guitars, showcasing 18 products from various categories imported from a Firebase database. The application allows filtering by category based on the sound of the guitars, by price (low to high or high to low), and by the top 6 best-selling products. Users can view detailed information for each product, select quantities, and add items to the cart. When a product is added to the cart, the stock quantity in the Firebase database is updated to reserve the product. In the cart section, users can continue adding or removing product quantities. If a product is removed, the stock is restored in the database. When an order is placed, an order receipt is generated and provided to the customer.",
+        "tecnologias":"aca van las tecnologias",
+        "technologies":"en inglés",
+        "nombre": "E-commerce React js",
+        "titulo": "SoloGuitarras",
+        "url": "https://abel-pierobon-entrega-final-pierobon.vercel.app/",
+        "video": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/videos%2FV%C3%ADdeo%20sin%20t%C3%ADtulo%20%E2%80%90%20Hecho%20con%20Clipchamp.mp4?alt=media&token=0252594e-12fc-4a31-80c0-48908ad4ac7c"
+    },
+    {
+        "id":"3",
+        "descripcion": "La aplicación fue diseñada para manejar turnos y llamados en una entidad pública. Al iniciar sesión, se pueden cargar turnos y llamar los mismos, mientras en la pantalla principal se visualizan los llamados. Los turnos y llamados son almacenados en una base de datos en Firebase.",
+        "description": "The application was designed to manage shifts and calls in a public entity. Upon logging in, users can load shifts and make calls, while the main screen displays the calls. Shifts and calls are stored in a Firebase database.",
+        "tecnologias":"aca van las tecnologias",
+        "technologies":"en inglés",
+        "nombre": "Turnero React-js",
+        "titulo": "Turnero",
+        "url": "https://turnero-reactjs.vercel.app/",
+        "video": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/videos%2FTurnero.mp4?alt=media&token=9779d051-d9bc-4410-a97f-170e78bfb2e1"
+    },
+    {
+        "id":"4",
+        "descripcion": "Bartender es una aplicación de React Native construida con Expo, diseñada para gestionar, buscar y mostrar los procesos de preparación de bebidas. La aplicación utiliza varias bibliotecas como React Navigation para la navegación, Redux Toolkit para la gestión del estado y Axios para las llamadas API. También incluye características como selección de imágenes, integración de base de datos SQLite y personalización de la barra de estado.",
+        "description": "Bartender is a React Native application built with Expo, designed to manage, search, and display drink preparation processes. The app uses several libraries such as React Navigation for navigation, Redux Toolkit for state management, and Axios for API calls. It also includes features like image selection, SQLite database integration, and status bar customization.",
+        "tecnologias":"aca van las tecnologias",
+        "technologies":"en inglés",
+        "nombre": "App React Native",
+        "titulo": "AppDrinks",
+        "url": "https://drive.google.com/file/d/1g7nOU3kMHZu2pdhUEZpX42buMm10O2K8/view?usp=sharing",
+        "video": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/videos%2Fapp.mp4?alt=media&token=cdaff8a3-ed09-41b9-9a8c-8978400c823a"
+    }
+]

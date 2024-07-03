@@ -3,30 +3,35 @@ import { db } from "../firebase";
 import { getDocs, collection } from "firebase/firestore";
 import { useState, useEffect } from "react";
 import MostrarCertificados from "./MostrarCertificados";
-import ScrollCarousel from "scroll-carousel-react";
-import Certificadosresponsive from "./Certificadosresponsive";
-
+import certificados from "../db/certificados.json"
 function Certificaciones({ certificaciones,ingles }) {
+    // const [data, setData] = useState([]);
+    // const { id } = useParams();
+
+    // useEffect(() => {
+    //     const fetchcertificados = async () => {
+    //         try {
+    //             const certCollection = collection(db, "certificados");
+    //             const consulta = await getDocs(certCollection);
+    //             const certificados = consulta.docs.map((doc) => ({
+    //                 id: doc.id,
+    //                 ...doc.data(),
+    //             }));
+    //             setData(certificados);
+    //         } catch (error) {
+    //             console.error("Error en carga de certificados:", error);
+    //         }
+    //     };
+
+    //     fetchcertificados();
+    // }, [id]);
+
     const [data, setData] = useState([]);
-    const { id } = useParams();
 
     useEffect(() => {
-        const fetchcertificados = async () => {
-            try {
-                const certCollection = collection(db, "certificados");
-                const consulta = await getDocs(certCollection);
-                const certificados = consulta.docs.map((doc) => ({
-                    id: doc.id,
-                    ...doc.data(),
-                }));
-                setData(certificados);
-            } catch (error) {
-                console.error("Error en carga de certificados:", error);
-            }
-        };
+        setData(certificados.certificados);
+    }, []);
 
-        fetchcertificados();
-    }, [id]);
 
     return (
         <div className="my-16 letra flex justify-center shadow-2xl bg-white py-4 rounded-md border 2xl:mx-56">
@@ -47,22 +52,6 @@ function Certificaciones({ certificaciones,ingles }) {
                         ))
                     )}
                 </div>
-                {/* <div className=" lg:hidden">
-                    {data.length > 0 && (
-                        <ScrollCarousel
-                            autoplay
-                            autoplayInterval={3000}
-                            speed={500}
-                        >
-                            {data.map((item, i) => (
-                                <Certificadosresponsive
-                                    key={i}
-                                    constancia={item}
-                                />
-                            ))}
-                        </ScrollCarousel>
-                    )}
-                </div> */}
             </div>
         </div>
     );

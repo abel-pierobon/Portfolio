@@ -1,0 +1,98 @@
+{
+    "certificados": [
+        {
+            "id":"1",
+            "iconos": {
+                "Base64": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fb64.png?alt=media&token=f505ea03-aaab-4aef-96d7-09b1b0964720",
+                "firebase": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ffirebase.png?alt=media&token=e9f5e5a4-41d7-4b90-b28d-399b57c4eadf",
+                "git": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgit.png?alt=media&token=be3e2671-aabc-46be-aadf-361d1b1d47b1",
+                "github": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgithub.png?alt=media&token=4b546105-e86d-4a28-b67b-d25e2153c02f",
+                "javascript": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fjavascript.png?alt=media&token=42fb64ea-6ee1-4037-a0c7-2c2096880dfa",
+                "react native": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Freact.png?alt=media&token=cea6008d-5b6e-4603-b26d-75f6c441e1bd",
+                "redux": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fredux.png?alt=media&token=5fcfc72d-9af4-4e41-8fb5-f88118b36f88",
+                "sqlite": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fsqlserver.png?alt=media&token=b892b14c-47b8-4376-bf1a-21c2971978e4"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2FDesarrollo%20de%20aplicaciones.png?alt=media&token=f0ef4d38-f125-49d5-9964-c3cc3d2c88d3",
+            "institucion": "Coderhouse",
+            "nombre": "Desarrollo de Aplicaciones",
+            "nombreEn": "Application Development",
+            "url": "https://www.coderhouse.com/ar/certificados/665128121db37a2cdd411d37?lang=es"
+        },
+        {
+            "id":"2",
+            "iconos": {
+                "anaconda": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fanaconda.png?alt=media&token=b8d1d580-94b9-43c1-9a81-c83b3feef5da",
+                "colab": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcolab.png?alt=media&token=f4ff1c4f-04ea-4fef-9dc4-51190a97c0b5",
+                "numpy": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fnumpy.png?alt=media&token=02f522cc-766e-4564-add6-e15ddf7e99f2",
+                "pandas": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpandas.png?alt=media&token=ba7de998-657c-4620-a9b3-d0dd8fbd52be",
+                "python": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpython.png?alt=media&token=10b0d4c3-477a-452e-9706-76a145a99e31",
+                "sql": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fsqlserver.png?alt=media&token=b892b14c-47b8-4376-bf1a-21c2971978e4"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fdata_science.png?alt=media&token=6eda2fbb-07cf-4f13-a7b6-17fa131402d8",
+            "institucion": "Coderhouse",
+            "nombre": "Data Science",
+            "nombreEn": "Data Science",
+            "url": "https://www.coderhouse.com/ar/certificados/63c9075caf027f000f0a5055?lang=es"
+        },
+        {
+            "id":"3",
+            "iconos": {
+                "bootstrap": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fbootstrap.png?alt=media&token=2a0223ea-4815-4b67-8935-c32ae20b4d57",
+                "css": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcss.png?alt=media&token=6f41a1bb-35fe-4d51-854d-d596ee3bf345",
+                "firebase": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ffirebase.png?alt=media&token=e9f5e5a4-41d7-4b90-b28d-399b57c4eadf",
+                "git": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgit.png?alt=media&token=be3e2671-aabc-46be-aadf-361d1b1d47b1",
+                "github": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgithub.png?alt=media&token=4b546105-e86d-4a28-b67b-d25e2153c02f",
+                "html5": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fhtml5.png?alt=media&token=b2e0585d-78a4-4667-9162-aabc6267f4a8",
+                "javascript": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fjavascript.png?alt=media&token=42fb64ea-6ee1-4037-a0c7-2c2096880dfa",
+                "react": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Freact.png?alt=media&token=cea6008d-5b6e-4603-b26d-75f6c441e1bd",
+                "react router dom": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Freact%20router%20dom.png?alt=media&token=f32dfa49-cece-4493-829c-906d064470f2",
+                "tailwind": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ftailwindcss.png?alt=media&token=9ca09f2a-e038-4efe-a96e-60d40940322a"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fcertificado-carrera.png?alt=media&token=fd53dc0b-c820-418e-aae7-9a221a42d7b6",
+            "institucion": "Coderhouse",
+            "nombre": "Desarrollador Front-end",
+            "nombreEn": "Front-end Developer",
+            "url": "https://www.coderhouse.com/ar/certificados/650b858da160cdd9fdce6477?lang=es"
+        },
+        {
+            "id":"4",
+            "iconos": {
+                "power bi": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpowerbi.png?alt=media&token=d468a00f-f250-4d92-b07e-ed5e2e21a59d",
+                "sql": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fsqlserver.png?alt=media&token=b892b14c-47b8-4376-bf1a-21c2971978e4"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fdata_analitics.png?alt=media&token=8769bfda-60b6-4fde-b1de-912ebf91c048",
+            "institucion": "Coderhouse",
+            "nombre": "Data Analytics",
+            "nombreEn": "Data analytics",
+            "url": "https://www.coderhouse.com/ar/certificados/62923f3425147c001a6f2638?lang=es"
+        },
+        {
+            "id":"5",
+            "iconos": {
+                "firebase": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ffirebase.png?alt=media&token=e9f5e5a4-41d7-4b90-b28d-399b57c4eadf",
+                "git": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgit.png?alt=media&token=be3e2671-aabc-46be-aadf-361d1b1d47b1",
+                "github": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fgithub.png?alt=media&token=4b546105-e86d-4a28-b67b-d25e2153c02f",
+                "javascript": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fjavascript.png?alt=media&token=42fb64ea-6ee1-4037-a0c7-2c2096880dfa"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2FJavascript.png?alt=media&token=5dcb0dd2-e325-4907-8362-51da0dd7c7aa",
+            "institucion": "Coderhouse",
+            "nombre": "Javascript",
+            "nombreEn": "Javascript",
+            "url": "https://www.coderhouse.com/ar/certificados/64c6c2e4c284ce00024c1a37?lang=es"
+        },
+        {
+            "id":"6",
+            "iconos": {
+                "firebase": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ffirebase.png?alt=media&token=e9f5e5a4-41d7-4b90-b28d-399b57c4eadf",
+                "pinia": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpinia.png?alt=media&token=7b1ead0f-5df3-4035-a5e1-66b441c49855",
+                "tailwindcss": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ftailwindcss.png?alt=media&token=9ca09f2a-e038-4efe-a96e-60d40940322a",
+                "vue": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fvue.png?alt=media&token=8fb7dd48-8fe4-408c-a7c3-daddbe106e8c"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fvue.png?alt=media&token=66b6167a-2421-479b-9c42-16a20abdf288",
+            "institucion": "Udemy",
+            "nombre": "Vue js",
+            "nombreEn": "Vue js",
+            "url": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fvue.png?alt=media&token=66b6167a-2421-479b-9c42-16a20abdf288"
+        }
+    ]
+}
