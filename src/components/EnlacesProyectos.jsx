@@ -12,7 +12,7 @@ function EnlacesProyectos({
     handleTecnologia,
 }) {
     return (
-        <div className="flex justify-center border space-x-20 shadow-lg rounded-md py-2 ">
+        <div className="flex justify-center border space-x-12 sm:space-x-20 shadow-lg rounded-md py-2 ">
             
             <Link to={proyecto.url} target="_blank" className=" hover:border hover:border-black">
                 <img

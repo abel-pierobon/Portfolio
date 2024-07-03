@@ -9,7 +9,7 @@ function MostrarCertificados({ constancia, ingles }) {
         <div className="mx-6 flex justify-center mb-4">
             <article
                 key={constancia.id}
-                className=" border border-gray rounded-md shadow-lg p-4  hover:border-black "
+                className=" border border-gray rounded-md shadow-lg p-4  hover:border-[#463eed] "
             >
                 <div className="m-3 ">
                     <p className="uppercase text-center text-[#463eed]">
