@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import web from "/images/web.png";
 import readme from "/images/readme.png";
 import codigo from "/images/codigo.png";
+import descargar from "/images/descargar.png";
 Link;
 function EnlacesProyectos({
     proyecto,
@@ -16,10 +17,10 @@ function EnlacesProyectos({
             
             <Link to={proyecto.url} target="_blank" className=" hover:border hover:border-black">
                 <img
-                    src={web}
-                    alt="enlace a web"
+                    src={proyecto.nombre === "App React Native" ?  descargar: web}
+                    alt="enlace"
                     className="w-6 m-1 shadow-xl shadow-gray-400 rounded-xl "
-                    title={!ingles ? "Enlace a web" : "Link to web"}
+                    title={!ingles ?proyecto.nombre === "App React Native" ? "Descargar app" : "Enlace a Web"  :  proyecto.nombre === "App React Native" ? "Download app" : "Link to web" }
                 />
             </Link>
             <button
