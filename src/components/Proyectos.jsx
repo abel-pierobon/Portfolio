@@ -1,6 +1,6 @@
-import { Link, useParams } from "react-router-dom";
-import { db } from "../firebase";
-import { getDocs, collection } from "firebase/firestore";
+// import { Link, useParams } from "react-router-dom";
+// import { db } from "../firebase";
+// import { getDocs, collection } from "firebase/firestore";
 import { useState, useEffect } from "react";
 import MostrarProyecto from "./MostrarProyecto";
 import proyectosRealizados from "../db/proyectosRealizados.json"
