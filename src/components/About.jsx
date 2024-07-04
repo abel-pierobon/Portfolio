@@ -37,10 +37,10 @@ function About({ ingles, handleHome }) {
                     ))}
                 </div>
                 <button
-                    className="md:hidden mt-2 text-blue-500 hover:underline"
+                    className="md:hidden mt-2 "
                     onClick={handleVerMas}
                 >
-                    <img src={verMas ? arriba : abajo} alt="opcion" className="w-8 m-1  shadow-xl  hover:transform hover:scale-105 " />
+                    <img src={verMas ? arriba : abajo} alt="opcion" className="w-8  shadow-xl  hover:transform hover:scale-105 " />
                 </button>
             </div>
 
