@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Iconos from "./Iconos";
-
-function MostrarCertificados({ constancia, ingles }) {
+function MostrarCertificados({ constancia, ingles, handleModal }) {
     const iconos = constancia.iconos ? Object.entries(constancia.iconos) : [];
 
     return (
@@ -17,12 +16,15 @@ function MostrarCertificados({ constancia, ingles }) {
                     </p>
                 </div>
                 <div>
-                    <img
-                        className="imgCertificado border border-black rounded-lg h-56 w-80"
-                        src={constancia.imagen}
-                        alt={constancia.nombre}
-                    />
-                    <p>{constancia.descripcion}</p>
+                    <button className="rounded-lg hover:border hover:border-[#463eed]">
+                        <img
+                            className="imgCertificado border border-black rounded-lg h-56 w-80"
+                            src={constancia.imagen}
+                            alt={constancia.nombre}
+                            onClick={() => handleModal(constancia.id)}
+                            title={ingles ? "Look":"Ver"}
+                        />
+                    </button>
                 </div>
                 <div className="flex justify-center mt-2 ">
                     <Link

@@ -4,6 +4,7 @@ import Certificaciones from "./Certificaciones.jsx";
 import Contact from "./Contact.jsx";
 
 function Main({ home, handleHome,certificaciones, proyectos, contacto,ingles }) {
+    
     return (
         <div className=" mx-4 md:mx-20 ">
             <Home home={home} handleHome={handleHome} ingles={ingles} />
