@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Iconos from "./Iconos";
+import ver from "/images/ver.png";
+import web from "/images/web.png";
 function MostrarCertificados({ constancia, ingles, handleModal }) {
     const iconos = constancia.iconos ? Object.entries(constancia.iconos) : [];
 
@@ -16,23 +18,34 @@ function MostrarCertificados({ constancia, ingles, handleModal }) {
                     </p>
                 </div>
                 <div>
-                    <button className="rounded-lg hover:border hover:border-[#463eed]">
-                        <img
-                            className="imgCertificado border border-black rounded-lg h-56 w-80"
-                            src={constancia.imagen}
-                            alt={constancia.nombre}
-                            onClick={() => handleModal(constancia.id)}
-                            title={ingles ? "Look":"Ver"}
-                        />
-                    </button>
+                    <img
+                        className="imgCertificado border border-black rounded-lg h-56 w-80"
+                        src={constancia.imagen}
+                        alt={constancia.nombre}
+                        title={ingles ? "Wach" : "Ver Certificado"}
+                    />
                 </div>
                 <div className="flex justify-center mt-2 ">
+                    <button
+                        className="hidden md:flex rounded-lg hover:border hover:border-[#463eed] "
+                        onClick={() => handleModal(constancia.id)}
+                    >
+                        <img
+                            src={ver}
+                            alt="ver certificado"
+                            className="w-10 h-10 border rounded-md m-1 border-gray shadow-lg p-1 hover:border-black"
+                        />
+                    </button>
                     <Link
                         to={constancia.url}
                         target="_blank"
-                        className=" border border-gray-500 shadow-lg text-sm rounded-md px-2 py-1 hover:bg-[#463eed] hover:text-white"
+                        className=" shadow-lg rounded-md px-2  hover:border hover:border-[#463eed]"
                     >
-                        {"Link"}
+                        <img
+                            src={web}
+                            alt="version web"
+                            className="w-9 h-9 border rounded-md m-1 border-gray shadow-lg  hover:border-black"
+                        />
                     </Link>
                 </div>
 

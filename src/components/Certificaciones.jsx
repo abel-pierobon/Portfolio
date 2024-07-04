@@ -70,7 +70,7 @@ function Certificaciones({ certificaciones, ingles }) {
                     )}
                 </div>
             </div>
-            <div className="hidden md:flex">
+            <div>
                 {open && <Modal imagen={imagen} closeModal={closeModal} ingles={ingles} />}
             </div>
         </div>

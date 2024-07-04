@@ -1,31 +1,8 @@
-// import { Link, useParams } from "react-router-dom";
-// import { db } from "../firebase";
-// import { getDocs, collection } from "firebase/firestore";
+
 import { useState, useEffect } from "react";
 import MostrarProyecto from "./MostrarProyecto";
 import proyectosRealizados from "../db/proyectosRealizados.json"
 function Proyectos({ proyectos,ingles }) {
-    // const [data, setData] = useState([]);
-    // const { id } = useParams();
-
-    // useEffect(() => {
-    //     const fetchproyectos = async () => {
-    //         try {
-    //             const proyectCollection = collection(db, "proyectos");
-    //             const consulta = await getDocs(proyectCollection);
-    //             const proyectos = consulta.docs.map((doc) => ({
-    //                 id: doc.id,
-    //                 ...doc.data(),
-    //             }));
-    //             setData(proyectos);
-    //         } catch (error) {
-    //             console.error("Error en carga de proyectos:", error);
-    //         }
-    //     };
-
-    //     fetchproyectos();
-    // }, [id]);
-
     const [data, setData] = useState([]);
 
     useEffect(() => {
