@@ -48,6 +48,7 @@ function App() {
                             proyectos={proyectos}
                             contacto={contacto}
                             ingles={ingles}
+                            handleHome={handleHome}
                         />
                     </div>
                 </div>

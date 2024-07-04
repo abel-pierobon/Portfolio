@@ -17,5 +17,11 @@
         "certificaciones": "Certificates",
         "proyectos": "Projects",
         "contacto": "Contact"
+    },
+    "sobreMi": {
+        "descripcion": " Soy un Desarrollador Front-End y Científico de Datos autodidacta y entusiasta. Tengo formación en React JS, React Native, Vue JS, Ciencia de Datos y Análisis de Datos. Me apasiona crear aplicaciones web dinámicas e interactivas, utilizando las mejores prácticas del desarrollo web y aprovechando el poder de los datos.",
+        "descripcion1": " Como Desarrollador Front-End, tengo experiencia en HTML, CSS y JavaScript, que son tecnologías fundamentales parala creación y el diseño de páginas web. Soy competente en frameworks y bibliotecas como React JS, React Native y Vue JS, lo que me permite construir interfaces de usuario responsivas e interactivas. También utilizo Bootstrap y Tailwind CSS para crear diseños responsivos y móviles. Mis habilidades incluyen SASS para estilos avanzados, AJAX para solicitudes web asincrónicas y GIT para control de versiones.",
+        "descripcion2": "En Ciencia de Datos, tengo habilidades en Python, un lenguaje de programación versátil utilizado ampliamente en este campo. Trabajo con bibliotecas como Pandas y NumPy para la manipulación de datos y cálculos numéricos, y Seaborn para la visualización de datos. Mi experiencia se extiende a SQL para la gestión y consulta de bases de datos, y tengo conocimientos en técnicas y algoritmos de aprendizaje automático para construir modelos predictivos y analizar datos.",
+        "descripcion3": "He participado en diversos proyectos personales y profesionales donde he aplicado estas habilidades para ofrecer soluciones impactantes y eficientes."
     }
 }

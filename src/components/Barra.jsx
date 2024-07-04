@@ -14,7 +14,7 @@ function Barra({
         <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
             <div className=" flex flex-row justify-end fixed top-0 z-10 bg-[#a1b2ff] w-full ">
                 <button
-                    className="  px-2 py-1 mx-1 text-sm sm:text-lg  xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
+                    className="  px-1 sm:px-2 py-1 mx-1 text-sm sm:text-lg  xl:text-2xl font-semibold hover:font-bold hover:text-[#463eed]"
                     onClick={handleHome}
                 >
                     {ingles ? idioma.barra.home : "Inicio"}
@@ -43,7 +43,7 @@ function Barra({
                 >
                     <img
                         src={ingles ? español : english}
-                        alt="español"
+                        alt="idioma"
                         className="w-6 xl:w-8 hover:transform hover:scale-105 "
                     />
                 </button>
