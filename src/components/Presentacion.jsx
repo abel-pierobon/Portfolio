@@ -39,7 +39,7 @@ function Presentacion({ ingles }) {
                 <img
                     src={perfil}
                     alt="imagen"
-                    className="w-48 h-48 lg:h-60 lg:w-60 m-4 imgPresentacion"
+                    className="w-48 h-48 lg:h-60 lg:w-60 mr-28 rounded-full border border-gray-600 imgPresentacion"
                 />
             </div>
         </div>
