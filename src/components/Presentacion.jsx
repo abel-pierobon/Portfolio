@@ -1,4 +1,4 @@
-import perfil from "/images/perfil.jpeg";
+import perfil from "/images/perfil2.png";
 import idioma from "../components/idioma.json";
 function Presentacion({ ingles }) {
     return (
@@ -35,11 +35,11 @@ function Presentacion({ ingles }) {
                     </p>
                 </div>
             )}
-            <div className="flex justify-center items-center ml-20v">
+            <div className="flex justify-center items-center ml-20 ">
                 <img
                     src={perfil}
                     alt="imagen"
-                    className="w-48 h-48 lg:h-60 lg:w-60 border border-black rounded-lg  m-4"
+                    className="w-48 h-48 lg:h-60 lg:w-60 m-4 imgPresentacion"
                 />
             </div>
         </div>

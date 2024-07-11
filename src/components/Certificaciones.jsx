@@ -1,31 +1,9 @@
-// import { Link, useParams } from "react-router-dom";
-// import { db } from "../firebase";
-// import { getDocs, collection } from "firebase/firestore";
+
 import { useState, useEffect } from "react";
 import MostrarCertificados from "./MostrarCertificados";
 import certificados from "../db/certificados.json";
 import Modal from "./Modal";
 function Certificaciones({ certificaciones, ingles }) {
-    // const [data, setData] = useState([]);
-    // const { id } = useParams();
-
-    // useEffect(() => {
-    //     const fetchcertificados = async () => {
-    //         try {
-    //             const certCollection = collection(db, "certificados");
-    //             const consulta = await getDocs(certCollection);
-    //             const certificados = consulta.docs.map((doc) => ({
-    //                 id: doc.id,
-    //                 ...doc.data(),
-    //             }));
-    //             setData(certificados);
-    //         } catch (error) {
-    //             console.error("Error en carga de certificados:", error);
-    //         }
-    //     };
-
-    //     fetchcertificados();
-    // }, [id]);
 
     const [data, setData] = useState([]);
 
@@ -55,7 +33,7 @@ function Certificaciones({ certificaciones, ingles }) {
                 >
                     {ingles ? "Certificates" : "Certificaciones"}
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                     {data.length === 0 ? (
                         <p>Loading</p>
                     ) : (

@@ -5,7 +5,7 @@ function Modal({ imagen, closeModal, ingles }) {
                 <img
                     src={imagen}
                     alt="imagen certificado"
-                    className="imgModal border border-[#463eed] rounded-md shadow-lg shadow-[#463eed]  "
+                    className="imgModal border border-[#463eed] rounded-md shadow-lg shadow-[#463eed]   "
                 />
             </div>
         </div>

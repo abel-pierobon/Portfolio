@@ -8,21 +8,13 @@ function Descripciones({
 }) {
     return (
         <div>
-            <section>
-                <div className="">
-                    <div>
-                        {verDescripcion ? (
-                            <Card
-                                contenido={
-                                    ingles
-                                        ? proyecto.description
-                                        : proyecto.descripcion
-                                }
-                            />
-                        ) : null}
-                    </div>
-                </div>
-            </section>
+            {verDescripcion ? (
+                <Card
+                    contenido={
+                        ingles ? proyecto.description : proyecto.descripcion
+                    }
+                />
+            ) : null}
         </div>
     );
 }

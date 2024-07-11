@@ -21,22 +21,6 @@
         {
             "id":"2",
             "iconos": {
-                "anaconda": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fanaconda.png?alt=media&token=b8d1d580-94b9-43c1-9a81-c83b3feef5da",
-                "colab": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcolab.png?alt=media&token=f4ff1c4f-04ea-4fef-9dc4-51190a97c0b5",
-                "numpy": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fnumpy.png?alt=media&token=02f522cc-766e-4564-add6-e15ddf7e99f2",
-                "pandas": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpandas.png?alt=media&token=ba7de998-657c-4620-a9b3-d0dd8fbd52be",
-                "python": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpython.png?alt=media&token=10b0d4c3-477a-452e-9706-76a145a99e31",
-                "sql": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fsqlserver.png?alt=media&token=b892b14c-47b8-4376-bf1a-21c2971978e4"
-            },
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fdata_science.png?alt=media&token=6eda2fbb-07cf-4f13-a7b6-17fa131402d8",
-            "institucion": "Coderhouse",
-            "nombre": "Data Science",
-            "nombreEn": "Data Science",
-            "url": "https://www.coderhouse.com/ar/certificados/63c9075caf027f000f0a5055?lang=es"
-        },
-        {
-            "id":"3",
-            "iconos": {
                 "bootstrap": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fbootstrap.png?alt=media&token=2a0223ea-4815-4b67-8935-c32ae20b4d57",
                 "css": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcss.png?alt=media&token=6f41a1bb-35fe-4d51-854d-d596ee3bf345",
                 "firebase": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Ffirebase.png?alt=media&token=e9f5e5a4-41d7-4b90-b28d-399b57c4eadf",
@@ -53,6 +37,22 @@
             "nombre": "Desarrollador Front-end",
             "nombreEn": "Front-end Developer",
             "url": "https://www.coderhouse.com/ar/certificados/650b858da160cdd9fdce6477?lang=es"
+        },
+        {
+            "id":"3",
+            "iconos": {
+                "anaconda": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fanaconda.png?alt=media&token=b8d1d580-94b9-43c1-9a81-c83b3feef5da",
+                "colab": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fcolab.png?alt=media&token=f4ff1c4f-04ea-4fef-9dc4-51190a97c0b5",
+                "numpy": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fnumpy.png?alt=media&token=02f522cc-766e-4564-add6-e15ddf7e99f2",
+                "pandas": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpandas.png?alt=media&token=ba7de998-657c-4620-a9b3-d0dd8fbd52be",
+                "python": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fpython.png?alt=media&token=10b0d4c3-477a-452e-9706-76a145a99e31",
+                "sql": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/iconos%2Fsqlserver.png?alt=media&token=b892b14c-47b8-4376-bf1a-21c2971978e4"
+            },
+            "imagen": "https://firebasestorage.googleapis.com/v0/b/porfolio-73b6e.appspot.com/o/certificados%2Fdata_science.png?alt=media&token=6eda2fbb-07cf-4f13-a7b6-17fa131402d8",
+            "institucion": "Coderhouse",
+            "nombre": "Data Science",
+            "nombreEn": "Data Science",
+            "url": "https://www.coderhouse.com/ar/certificados/63c9075caf027f000f0a5055?lang=es"
         },
         {
             "id":"4",

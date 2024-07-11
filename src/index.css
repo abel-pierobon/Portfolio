@@ -15,7 +15,9 @@ html, body, #root {
   display: flex;
   flex-direction: column;
 }
-
+body{
+  background-color: "black";
+}
 .modal {
   position: fixed;
   top: 0;
@@ -62,6 +64,20 @@ html, body, #root {
 
 .close-button:hover {
   opacity: 1;
+}
+.imgPresentacion{
+  filter: drop-shadow(0 0 0.95rem #32323a);
+  /* // opacity bottom:  */
+  /* opacity: 0.5; */
+  opacity:0.90;
+
+}
+
+@media (max-width: 920px) {
+  .imgModal {
+    width: 75%;
+    height: 50%;
+  }
 }
 
 

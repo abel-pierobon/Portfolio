@@ -7,22 +7,21 @@ function MostrarCertificados({ constancia, ingles, handleModal }) {
     const iconos = constancia.iconos ? Object.entries(constancia.iconos) : [];
 
     return (
-        <div className="mx-6 flex justify-center mb-4">
+        <div className="mx-6 flex justify-center  mb-4">
             <article
                 key={constancia.id}
                 className=" border border-gray rounded-md shadow-lg p-4  hover:border-[#463eed] "
             >
                 <div className="m-3 ">
-                    <p className="uppercase text-center text-[#463eed]">
+                    <p className="uppercase text-center text-xs md:text-lg text-[#463eed] h-6 md:h-10 mb-1">
                         {ingles ? constancia.nombreEn : constancia.nombre}
                     </p>
                 </div>
-                <div>
+                <div className="flex justify-center">
                     <img
-                        className="imgCertificado border border-black rounded-lg h-56 w-80"
+                        className="border border-black rounded-lg h-40 md:h-56 md:w-80 lg:h-56 lg:"
                         src={constancia.imagen}
                         alt={constancia.nombre}
-                        title={ingles ? "Wach" : "Ver Certificado"}
                     />
                 </div>
                 <div className="flex justify-center mt-2 ">

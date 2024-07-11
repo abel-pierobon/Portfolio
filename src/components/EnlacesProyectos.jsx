@@ -15,36 +15,36 @@ function EnlacesProyectos({
     return (
         <div className="flex justify-center border space-x-12 sm:space-x-20 shadow-lg rounded-md py-2 ">
             
-            <Link to={proyecto.url} target="_blank" className=" hover:border hover:border-black">
+            <Link to={proyecto.url} target="_blank" className="  rounded-md shadow-md shadow-[#463eed]">
                 <img
                     src={proyecto.nombre === "App React Native" ?  descargar: web}
                     alt="enlace"
-                    className="w-6 m-1 shadow-xl shadow-gray-400 rounded-xl "
+                    className="w-6 m-1  "
                     title={!ingles ?proyecto.nombre === "App React Native" ? "Descargar app" : "Enlace a Web"  :  proyecto.nombre === "App React Native" ? "Download app" : "Link to web" }
                 />
             </Link>
             <button
                 onClick={handleDescripcion}
                 alt="readme"
-                className=" rounded-md  hover:border hover:border-black"
+                className=" rounded-md shadow-md shadow-[#463eed] "
                 title={!ingles ? "Descripción del proyecto" : "Project description"}
 
             >
                 <img
                     src={readme}
                     alt="readme"
-                    className="w-6 m-1 shadow-xl shadow-gray-400 "
+                    className="w-6 m-1 "
                 />
             </button>
             <button
                 onClick={handleTecnologia}
-                className=" rounded-md  hover:border hover:border-black"
+                className="rounded-md shadow-md shadow-[#463eed] "
                 title={!ingles ? "Tecnologías utilizadas" : "Used technologies"}
             >
                 <img
                     src={codigo}
                     alt="readme"
-                    className="w-6 m-1 shadow-xl shadow-gray-400  rounded-sm "
+                    className="w-6 m-1  "
                 />
             </button>
             
