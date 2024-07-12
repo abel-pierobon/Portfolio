@@ -66,9 +66,9 @@ body{
   opacity: 1;
 }
 .imgPresentacion{
-  filter: drop-shadow(0 0 0.95rem #32323a);
+  /* filter: drop-shadow(0 0 0.95rem black); */
   opacity: 0.9;
-
+  filter: drop-shadow(0 0 0.5rem gray);
 }
 
 @media (max-width: 920px) {
